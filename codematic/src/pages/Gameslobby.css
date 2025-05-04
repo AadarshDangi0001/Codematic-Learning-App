@@ -1,0 +1,109 @@
+.games {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    width: 100vw;
+    height: 88vh;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1vw;
+    font-style: normal;
+  }
+
+.heading {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: rgb(255, 170, 0);
+  }
+  
+  .game-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-bottom: 50px;
+  }
+  
+  .game-box {
+    background-color: #111;
+    height: 20vh;
+    width: 20vw;
+    padding: 20px;
+    border: 2px solid rgb(255, 170, 0);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .game-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .game-box h2 {
+    margin-bottom: 15px;
+  }
+  
+  .game-box button {
+    background-color: rgb(255, 170, 0);
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .progress-section {
+    margin-top: 40px;
+  }
+  
+  .progress-bar {
+    width: 60%;
+    margin: 0 auto 20px;
+    height: 25px;
+    background-color: #222;
+    border: 2px solid rgb(255, 170, 0);
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 170, 0);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .download-btn {
+    background-color: rgb(255, 170, 0);
+    color: #000;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .certificate-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .certificate-popup img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 4px solid rgb(255, 170, 0);
+    border-radius: 10px;
+  }

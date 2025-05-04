@@ -1,0 +1,73 @@
+
+.login-container1{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+   
+
+}
+
+.auth-card2{
+    background-color: aqua;
+    background: url(../../public/images/BG.png);
+    background-size: cover;
+    width: 353px;
+    height: 416.62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+    h2{
+        font-size: 2rem;
+    }
+}
+
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+   
+}
+.form-input{
+    background-color: white;
+    width: 17vw;
+    height: 6vh;
+    border: none;
+    /* border: 0.5px solid black; */
+    border-radius: 0.5vw;
+    padding: 1rem;
+}
+
+.auth-button1{
+    background-color: #BCE7EC;
+    width: 17vw;
+    height: 6vh;
+    border: none;
+    /* border: 0.5px solid black; */
+    border-radius: 0.5vw;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+
+.auth-button1:hover{
+    background-color: rgb(117, 117, 230);
+    color: white;
+}
+
+.auth-link1{
+    font-size: 1vw;
+}

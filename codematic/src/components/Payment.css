@@ -1,0 +1,112 @@
+/* Payment.css */
+
+.payment-container {
+    max-width: 420px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  .payment-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2d2d32;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .amount-selector {
+    margin-bottom: 1.5rem;
+  }
+  
+  .amount-selector label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #4a4a4f;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+  .amount-selector input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #e0e0e5;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+  }
+  
+  .amount-selector input:focus {
+    outline: none;
+    border-color: #4a4a4f;
+  }
+  
+  .pay-button {
+    display: block;
+    width: 100%;
+    padding: 0.875rem;
+    background-color: #4361ee; /* Razorpay blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  
+  .pay-button:hover {
+    background-color: #3a56d4;
+  }
+  
+  .pay-button:active {
+    transform: scale(0.98);
+  }
+  
+  .pay-button:disabled {
+    background-color: #a0a0a8;
+    cursor: not-allowed;
+    transform: none;
+  }
+  
+  .payment-success {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #f0f9f0;
+    border-radius: 8px;
+    border: 1px solid #d1f7d1;
+    color: #2e7d32;
+  }
+  
+  .payment-success h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .payment-success p {
+    margin: 0;
+    font-size: 0.875rem;
+  }
+  
+  /* Razorpay modal-like styling */
+  .razorpay-container {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px dashed #e0e0e5;
+    text-align: center;
+    color: #6b6b76;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    .payment-container {
+      padding: 1.5rem;
+      margin: 1rem;
+    }
+  }

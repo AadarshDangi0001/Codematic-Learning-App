@@ -1,0 +1,132 @@
+/* Auth Pages */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--darker-bg) 0%, var(--dark-bg) 100%);
+  padding: 20px;
+}
+
+.auth-card {
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--text-muted);
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.auth-button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.auth-button:hover {
+  background-color: #2a75ff;
+}
+
+.auth-link {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: var(--text-muted);
+}
+
+.error-message {
+  color: var(--error-color);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Dashboard */
+.dashboard-container {
+  min-height: 100vh;
+  /* background-color: var(--dark-bg); */
+}
+
+
+
+
+
+
+
+
+.primary-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.primary-button:hover {
+  background-color: #2a75ff;
+  color: white;
+}
+
+.activity-list {
+  margin-top: 1rem;
+}
+
+.activity-item {
+  padding: 1rem;
+  background-color: #2a2a2a;
+  border-radius: 5px;
+  margin-bottom: 0.8rem;
+}
+
+.activity-item p {
+  color: var(--text-color);
+}
+
+.activity-description {
+  color: var(--text-muted) !important;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+/* Chatbot Page */
+/* General Container */
+
+
+/* Chatbot Section (30%) */

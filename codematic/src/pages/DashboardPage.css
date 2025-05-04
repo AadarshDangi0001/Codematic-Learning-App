@@ -1,0 +1,269 @@
+.dashboard-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.dashboard-header {
+  padding: 0 9vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  background-color: #000000;
+  border: none;
+  h2 {
+    font-size: 2vw;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+  }
+}
+
+.dashboard-header-left {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  i {
+    font-size: 1.3vw;
+    cursor: pointer;
+  }
+  button {
+    border: none;
+    background-color: #000000;
+
+    i {
+      cursor: pointer;
+      color: white;
+      /* background-color: #000000; */
+      font-size: 1.3vw;
+    }
+  }
+}
+.dashboard-content {
+  h2 {
+    padding: 0 9vw;
+    font-size: 2vw;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    color: #969696;
+    font-style: normal;
+  }
+}
+.card-section {
+  background-color: black;
+  border: none;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  padding: 2vw;
+  gap: 8vh;
+  align-items: center;
+}
+
+.dashboard-card {
+  width: 377px;
+  height: 249.4px;
+  background-size: cover;
+  background: url(../../public/images/Card\ 4.png);
+  display: flex;
+  justify-content: space-between;
+  padding: 5vh 4vh;
+  align-items: flex-start;
+  flex-direction: column;
+  .card-text {
+    padding: 0;
+    /* background-color: aqua; */
+  
+    h2 {
+        padding: 0;
+      text-align: start;
+      color: white;
+      font-size: 1.5vw;
+    }
+  }
+  .primary-button{
+    height: 6vh;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+   font-size: 1vw;
+   text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 1rem;
+  }
+  
+}
+.dashboard-card3 {
+  width: 374px;
+  height: 249.4px;
+  background-size: cover;
+  background: url(../../public/images/Card\ 6.png);
+  display: flex;
+  justify-content: space-between;
+  padding: 5vh 4vh;
+  align-items: flex-start;
+  flex-direction: column;
+  .card-text {
+    padding: 0;
+    /* background-color: aqua; */
+  
+    h2 {
+        padding: 0;
+      text-align: start;
+      color: white;
+      font-size: 1.5vw;
+    }
+  }
+  .primary-button{
+    height: 6vh;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+   font-size: 1vw;
+   text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 1rem;
+  }
+}
+.dashboard-card4 {
+  width: 377px;
+  height: 249.4px;
+  background-size: cover;
+  background: url(../../public/images/Card\ 3.png);
+  display: flex;
+  justify-content: space-between;
+  padding: 5vh 4vh;
+  align-items: flex-start;
+  flex-direction: column;
+  .card-text {
+    padding: 0;
+    /* background-color: aqua; */
+  
+    h2 {
+        padding: 0;
+      text-align: start;
+      color: white;
+      font-size: 1.5vw;
+    }
+  }
+  .primary-button{
+    height: 6vh;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+   font-size: 1vw;
+   text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 1rem;
+  }
+}
+
+.dashboard-content {
+  h2 {
+    padding: 0 9vw;
+    font-size: 2vw;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    color: #969696;
+    font-style: normal;
+  }
+}
+.card-section2 {
+  background-color: black;
+  border: none;
+  height: 36vh;
+  display: flex;
+  justify-content: center;
+  padding: 2vw;
+  gap: 2vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-card2 {
+  width: 1250px;
+  height: 120px;
+  /* background-size: contain; */
+  border-radius: 2rem;
+  background: url(../../public/images/Card\ 5.png);
+  display: flex;
+  justify-content: space-between;
+  padding: 0vh 3vw;
+  align-items: center;
+  /* flex-direction: column; */
+  .card-text {
+    padding: 0;
+    /* background-color: aqua; */
+
+  
+    h2 {
+        padding: 0;
+      text-align: start;
+      color: white;
+      font-size: 1.5vw;
+      
+    }
+  }
+  .primary-button{
+    margin: 0;
+    height: 6vh;
+    width: 20%;
+    background-color: white;
+    color: black;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+   font-size: 1vw;
+   text-align: start;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 1rem;
+  }
+}
+
+.dashboard-content2{
+  h2 {
+    padding: 0 9vw;
+    font-size: 2vw;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    color: #969696;
+    font-style: normal;
+  }
+}
+.dash-head-img{
+    img{
+        cursor: pointer;
+    }
+    
+}
+.dash-right{
+    display: flex;
+    gap: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* components/Payment.css */
+.dashboard-cardq11{
+  overflow-x: hidden;
+}
+.card-text11{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
